@@ -13,3 +13,87 @@ Please go to readme.txt for information libraries, credits, changes, fork inform
 
 */
 
+*{font-family: 'Roboto Slab', serif;}
+
+/*Navigation Bar - changes font size*/
+.menu-item a {
+	font-size: 15px!important;
+	background-color: none;
+	display: block;
+	position: relative;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.site-description {
+	font-size: 100px;
+	background-color: none;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*Main text in home page across image*/
+.site-branding {
+	font-size: 10px;
+	background-color: none;
+
+}
+/*Lucy Negash in top right corner*/
+.navbar-header {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand {
+	position: relative;
+	display: block;
+	float: right;
+	text-align: right;
+	height: 50px;
+}
+
+.navbar-default {
+	align-content: right;
+}
+
+/*Top menu - changed position*/
+#menu-default {
+	float: right;
+	width: 65%;
+	text-align: center;
+	position: relative;
+	color: #FFC0CB;
+}
+
+#primary {
+	float: center;
+	position: relative;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        border-top: none
+        color: blue;
+    }
+
+/*Modifies text on the home page*/
+.entry-content {
+}
+
+#primary {
+	width: 100% !important;
+}
+
+.navbar-default {
+    background: #fff;
+    color: #FFC0CB!important;
+    box-shadow: 0 1px 1px rgba(100, 100, 0, .2)
+}
+.h3 {
+	font-size: 15px;
+	text-align: center;
+}
